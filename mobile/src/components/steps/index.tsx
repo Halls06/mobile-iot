@@ -15,7 +15,7 @@ export function Steps(){
             <Step
             icon="wifi"
             title="Conecte-se a Internet"
-            description="Conecte-se com seu dispositivos IOT e cotrole sua casa"
+            description="Conecte-se com seu dispositivos iot e cotrole sua casa"
             />
         </View>        
     )

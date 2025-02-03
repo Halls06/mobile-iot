@@ -2,6 +2,7 @@ import { Image, Text, View } from "react-native";
 import { s } from "./styles";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { colors } from "@/styles/colors";
+import { Categories } from "@/components/categories";
 
 export default function Home(){
     return (
@@ -10,6 +11,7 @@ export default function Home(){
                 <Image source={require("@/assets/logo.png")} style={s.logo}></Image>
                 <MaterialCommunityIcons name="menu" size={22} color={colors.gray[100]}/>
             </View>
+            <Categories />
         </View>
     )
 }
